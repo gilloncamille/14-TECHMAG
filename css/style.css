@@ -8,6 +8,40 @@ html {
 }
 
 body {
+  font-family: sans-serif;
+  background-color: black;
   max-width: 320px;
   margin: auto;
+}
+div{
+  font-size:15px;
+  margin: 20px;
+  padding: 30px;
+  background-color: #00ff9e;
+}
+h1,
+header h2 {
+  color: white;
+}
+em {
+  color: #00ff9e;
+}
+
+article {
+  font-size:15px;
+  margin: 20px;
+  padding:30px;
+background-color: white;
+}
+.main-header {
+  border: 1px solid white;
+  margin: 20px;
+  padding:30px;
+  background-image: url(../img/fond-code.jpg);
+}
+figcaption {
+  margin: 0 5px 0 5px ;
+  padding: 10px 0 10px 0;
+  box-shadow: 1px 1px 7px black;
+  font-size:10px;
 }
