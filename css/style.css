@@ -19,29 +19,74 @@ div{
   padding: 30px;
   background-color: #00ff9e;
 }
+div p {
+  font-weight: lighter;
+}
+div h2 {
+  font-size: 20px;
+}
 h1,
 header h2 {
+  font-size: 15px;
+  font-weight: lighter;
   color: white;
 }
 em {
   color: #00ff9e;
 }
 
+article h2 {
+  font-size: 15px;
+}
+
+article h1 {
+  font-weight: bolder;
+  color:black;
+}
 article {
   font-size:15px;
   margin: 20px;
   padding:30px;
 background-color: white;
 }
+.petit-p-article {
+  font-size: 10px;
+}
 .main-header {
-  border: 1px solid white;
+  border: 2px solid white;
   margin: 20px;
   padding:30px;
   background-image: url(../img/fond-code.jpg);
 }
 figcaption {
-  margin: 0 5px 0 5px ;
-  padding: 10px 0 10px 0;
+  margin: 0 -20px 0 -20px;
+  padding: 2px 20px 2px 20px;
   box-shadow: 1px 1px 7px black;
   font-size:10px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+ margin-right: auto;
+}
+img {
+  width: 262px ;
+  height: 174px;
+margin-left: auto;
+margin-right: auto;
+}
+footer {
+  border: 2px solid #00ff9e;
+  text-align: center;
+  color: white;
+  font-size:10px;
+}
+a {
+  text-decoration: none;
+  margin: -10px;
+  padding: 5px 10px;
+  font-weight: bolder;
+  color: white;
+  font-size:10px;
+  background-color: #444444;
 }
