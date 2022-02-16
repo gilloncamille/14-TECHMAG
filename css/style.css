@@ -16,7 +16,7 @@ body {
 div{
   font-size:15px;
   margin: 20px;
-  padding: 30px;
+  padding: 10px 30px 10px 25px;
   background-color: #00ff9e;
 }
 div p {
@@ -70,8 +70,8 @@ figcaption {
  margin-right: auto;
 }
 img {
-  width: 262px ;
   height: 174px;
+  max-width: 262px;;
 margin-left: auto;
 margin-right: auto;
 }
